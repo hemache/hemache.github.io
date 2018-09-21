@@ -1,0 +1,10 @@
+.listing {
+    @include media-breakpoint-up(sm) {
+        &-category {
+            columns: 2;
+            column-fill: balance;
+            column-gap: 2rem;
+            column-rule: 1px dashed $gray-500;
+        }
+    }
+}
